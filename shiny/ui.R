@@ -17,7 +17,9 @@ shinyUI(fluidPage(
             h4('Predicted mpg'),
             verbatimTextOutput("oPredictedMpg"),
             h2("Documentation"),
-            p("Based on a data set of popular cars in the US, it was figured out that fuel efficiency highly relates to the weight of the car. The data was used to fit a linear regression model which is used by this application to predict the mpg value for any car given its weight. Just enter the weight of the car in tons and you get back the mpg value.")
+            p("Based on a data set of popular cars in the US, it was figured out that fuel efficiency highly relates to the weight of the car. The data was used to fit a linear regression model which is used by this application to predict the mpg value for any car given its weight. Just enter the weight of the car in tons and you get back the mpg value."),
+            p("The code of this app can be found at "),
+            a("https://github.com/mkraemerxcoursera/DataProducts_Assignment", href="https://github.com/mkraemerxcoursera/DataProducts_Assignment")
         )
     )
 ))
